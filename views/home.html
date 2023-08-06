@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <title>Chris Simon - Assignment 4</title>
+        <!-- css files from our 'public' folder -->
+        <link rel="stylesheet" type="text/css" href="/reset.css">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/theme.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,500;1,300;1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <!-- Navigation: This code is my own css from the theme.css file -->
+        <nav>
+            <a href="/">Home</a>
+            <a href="/storefront">Storefront</a>
+            <a href="/list">List</a>
+            <a href="/table">Table</a>
+        </nav>
+    
+        <!-- Header Content -->
+        <div class="container py-5 my-5">
+            <div class="jumbotron pageHeading">
+                <h1 class="display-4 contentHeading">Homepage</h1>
+                <p class="lead">Hello, and welcome to my newly styled homepage! This website is for the fourth assignment in WEB322.</p>
+            </div>
+        </div>
+
+        <div class="carousel-container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/beach.jpg" class="d-block w-100" alt="Image 1">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h3>All images courtesy of unsplash.com</h3>
+                        <p>Beaches are pretty cool</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <div class="text-center py-5 my-5">
+            <button type="button" class="btn btn-primary btn-lg orangeButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Click Here!
+            </button>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Whoa, a cool box.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p>This box is called a 'Modal'. It's a part of the boostrap library.<br>
+                Kinda neat, huh?</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Whoa!</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Pretty cool!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Body Content -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Reflection</h2>
+                    <p>
+                        Web322 has been a pretty great course so far.
+                        I used to use Javascript all the time when I worked for the Weather Network.
+                        I made digital advertisements for phones and websites.
+                        In this course I've so far learned what node is and why it's useful, as well as the basics
+                        of how to set a node server up. It's genuinely useful, and I've already started tinkering
+                        with it in my spare time.
+                    </p>
+                    <h3>What is HTML5?</h3>
+                    <p>
+                        HTML5 is a markup language we used to structure and present content on websites.
+                        We can think of it as the skeleton or foundation of any website. It provides the building blocks
+                        that we can beautify with CSS and enhance with code through scripting languages like JavaScript.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+  </body>
+  </html>

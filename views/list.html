@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chris Simon - List</title>
+    <!-- css files from our 'public' folder -->
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,500;1,300;1,500&display=swap" rel="stylesheet">
+    <style>
+        .listContainer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .listContainer h2 {
+            margin-top: 0;
+        }
+
+        .listContainer ul {
+            padding-inline-start: 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<!-- Navigation: This isn't bootstrap but my own custom css -->
+<nav>
+    <a href="/">Home</a>
+    <a href="/storefront">Storefront</a>
+    <a href="/list">List</a>
+    <a href="/table">Table</a>
+</nav>
+
+<!-- Header Content -->
+<div class="listContainer">
+    <div class="py-5 pageHeading">
+        <h1 class="contentHeading">Chris Simon A3 - List</h1>
+        <p>
+            Hello! I'm Chris Simon, and this is my List page.<br>
+            With the power of bootstrap and CSS, I've centered everything and moved my list a whole screen below! Whoa! <br><br>My student ID is 123382228, and my Seneca email is csimon7@myseneca.ca.<br>I'm currently a third-semester student in the Computer Programming and Analysis program at Seneca.
+        </p>
+    </div>
+</div>
+
+<div class="listContainer">
+    <h2 class="grocerySpacing">Groceries</h2>
+    <ul class="list-unstyled">
+        <li class="mb-3">
+            <strong>Veggies</strong>
+            <ol>
+                <li>Zucchini Squash</li>
+                <li>Green Onions</li>
+                <li>Broccoli</li>
+                <li>Carrots</li>
+                <li>Mushrooms</li>
+                <li>Kale</li>
+                <li>Ginger</li>
+                <li>Garlic</li>
+            </ol>
+        </li>
+        <li class="mb-3">
+            <strong>Meat</strong>
+            <ol>
+                <li>Ground Beef</li>
+                <li>Ground Chicken</li>
+                <li>Porkchops</li>
+            </ol>
+        </li>
+        <li class="mb-3">
+            <strong>Misc.</strong>
+            <ol>
+                <li>Toothpaste</li>
+                <li>Tinfoil</li>
+                <li>Laundry Detergent</li>
+            </ol>
+        </li>
+    </ul>
+</div>
+
+<script src="/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
